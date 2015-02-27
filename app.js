@@ -1,4 +1,5 @@
-var a = require('Actify');
+var actify = require('Actify');
 var path = require('path');
-a.settings.viewsPath = path.join(__dirname, 'app', 'views')
-a.init();
+
+actify.settings.viewsPath = path.join(__dirname, 'app', 'views');
+actify.init();
