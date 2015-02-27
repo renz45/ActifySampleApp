@@ -1,0 +1,21 @@
+<h2>Register</h2>
+<h1>{{user.email}}</h1>
+<p>{{errors}}</p>
+<form method='POST' action='/registration'>
+  <input type="hidden", name="_csrf", value='{{csrfToken}}'>
+  <div>
+    <input type='text' name='email' placeholder='Email'>
+  </div>
+
+  <div>
+    <input type='password' name='password' placeholder='Password'>
+  </div>
+
+  <div>
+    <input type='submit' value='Submit'>
+  </div>
+</form>
+
+<div>
+  <a href='/sign_in'>Sign in</a>
+</div>

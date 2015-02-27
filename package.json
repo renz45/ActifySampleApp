@@ -1,0 +1,16 @@
+{
+  "name": "ActifySampleApp",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "Actify": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Adam Rensel",
+  "license": "MIT"
+}
